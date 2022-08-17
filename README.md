@@ -105,7 +105,7 @@ sudo docker compose build -f docker-compose-boot.yml up -d
 Get root node enr
 
 ```
-docker-compose -f docker-compose-boot.yml logs -f dvf_root_node | grep enr
+sudo docker compose -f docker-compose-boot.yml logs -f dvf_root_node | grep enr
 ```
 output
 > dvf-dvf_root_node-1  | Base64 ENR: *enr:-IS4QNa-kpJM1eWfueeEnY2iXlLAL0QY2gAWAhmsb4c8VmrSK9J7N5dfXS_DgSASCDrUTHMqMUlP4OXSYEVh-Z7zFHkBgmlkgnY0gmlwhAMBnbWJc2VjcDI1NmsxoQPKY0yuDUmstAHYpMa2_oxVtw0RW_QAdpzBQA8yWM0xOIN1ZHCCIy0*
